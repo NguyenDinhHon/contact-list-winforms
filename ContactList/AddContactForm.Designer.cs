@@ -35,6 +35,7 @@
             this.btn_Save = new System.Windows.Forms.Button();
             this.lbl_Email = new System.Windows.Forms.Label();
             this.txt_Email = new System.Windows.Forms.TextBox();
+            this.lbl_TTBS = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_HoTen
@@ -72,7 +73,7 @@
             // 
             // btn_Save
             // 
-            this.btn_Save.Location = new System.Drawing.Point(522, 552);
+            this.btn_Save.Location = new System.Drawing.Point(522, 578);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(206, 48);
             this.btn_Save.TabIndex = 4;
@@ -82,7 +83,7 @@
             // lbl_Email
             // 
             this.lbl_Email.AutoSize = true;
-            this.lbl_Email.Location = new System.Drawing.Point(197, 409);
+            this.lbl_Email.Location = new System.Drawing.Point(206, 388);
             this.lbl_Email.Name = "lbl_Email";
             this.lbl_Email.Size = new System.Drawing.Size(94, 32);
             this.lbl_Email.TabIndex = 5;
@@ -90,16 +91,26 @@
             // 
             // txt_Email
             // 
-            this.txt_Email.Location = new System.Drawing.Point(522, 406);
+            this.txt_Email.Location = new System.Drawing.Point(522, 388);
             this.txt_Email.Name = "txt_Email";
             this.txt_Email.Size = new System.Drawing.Size(288, 38);
             this.txt_Email.TabIndex = 6;
+            // 
+            // lbl_TTBS
+            // 
+            this.lbl_TTBS.AutoSize = true;
+            this.lbl_TTBS.Location = new System.Drawing.Point(197, 479);
+            this.lbl_TTBS.Name = "lbl_TTBS";
+            this.lbl_TTBS.Size = new System.Drawing.Size(241, 32);
+            this.lbl_TTBS.TabIndex = 7;
+            this.lbl_TTBS.Text = "Thông tin bổ sung";
             // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1242, 686);
+            this.Controls.Add(this.lbl_TTBS);
             this.Controls.Add(this.txt_Email);
             this.Controls.Add(this.lbl_Email);
             this.Controls.Add(this.btn_Save);
@@ -123,5 +134,6 @@
         private System.Windows.Forms.Button btn_Save;
         private System.Windows.Forms.Label lbl_Email;
         private System.Windows.Forms.TextBox txt_Email;
+        private System.Windows.Forms.Label lbl_TTBS;
     }
 }
