@@ -33,6 +33,8 @@
             this.txt_HoTen = new System.Windows.Forms.TextBox();
             this.txt_SDT = new System.Windows.Forms.TextBox();
             this.btn_Save = new System.Windows.Forms.Button();
+            this.lbl_Email = new System.Windows.Forms.Label();
+            this.txt_Email = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbl_HoTen
@@ -47,7 +49,7 @@
             // lbl_SDT
             // 
             this.lbl_SDT.AutoSize = true;
-            this.lbl_SDT.Location = new System.Drawing.Point(197, 329);
+            this.lbl_SDT.Location = new System.Drawing.Point(197, 289);
             this.lbl_SDT.Name = "lbl_SDT";
             this.lbl_SDT.Size = new System.Drawing.Size(189, 32);
             this.lbl_SDT.TabIndex = 1;
@@ -56,32 +58,50 @@
             // 
             // txt_HoTen
             // 
-            this.txt_HoTen.Location = new System.Drawing.Point(522, 190);
+            this.txt_HoTen.Location = new System.Drawing.Point(522, 181);
             this.txt_HoTen.Name = "txt_HoTen";
-            this.txt_HoTen.Size = new System.Drawing.Size(323, 38);
+            this.txt_HoTen.Size = new System.Drawing.Size(288, 38);
             this.txt_HoTen.TabIndex = 2;
             // 
             // txt_SDT
             // 
-            this.txt_SDT.Location = new System.Drawing.Point(522, 360);
+            this.txt_SDT.Location = new System.Drawing.Point(522, 286);
             this.txt_SDT.Name = "txt_SDT";
             this.txt_SDT.Size = new System.Drawing.Size(288, 38);
             this.txt_SDT.TabIndex = 3;
             // 
             // btn_Save
             // 
-            this.btn_Save.Location = new System.Drawing.Point(553, 504);
+            this.btn_Save.Location = new System.Drawing.Point(522, 552);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(206, 48);
             this.btn_Save.TabIndex = 4;
             this.btn_Save.Text = "Lưu";
             this.btn_Save.UseVisualStyleBackColor = true;
             // 
+            // lbl_Email
+            // 
+            this.lbl_Email.AutoSize = true;
+            this.lbl_Email.Location = new System.Drawing.Point(197, 409);
+            this.lbl_Email.Name = "lbl_Email";
+            this.lbl_Email.Size = new System.Drawing.Size(94, 32);
+            this.lbl_Email.TabIndex = 5;
+            this.lbl_Email.Text = "Email:";
+            // 
+            // txt_Email
+            // 
+            this.txt_Email.Location = new System.Drawing.Point(522, 406);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(288, 38);
+            this.txt_Email.TabIndex = 6;
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1242, 686);
+            this.Controls.Add(this.txt_Email);
+            this.Controls.Add(this.lbl_Email);
             this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.txt_SDT);
             this.Controls.Add(this.txt_HoTen);
@@ -101,5 +121,7 @@
         private System.Windows.Forms.TextBox txt_HoTen;
         private System.Windows.Forms.TextBox txt_SDT;
         private System.Windows.Forms.Button btn_Save;
+        private System.Windows.Forms.Label lbl_Email;
+        private System.Windows.Forms.TextBox txt_Email;
     }
 }
