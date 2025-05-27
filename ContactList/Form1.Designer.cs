@@ -50,6 +50,7 @@
             this.btn_Add.TabIndex = 1;
             this.btn_Add.Text = "Thêm liên hệ";
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // MainForm
             // 
